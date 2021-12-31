@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Rosemberg Samanta</title>
+</head>
+
+<body>
+    <!-- NavBar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">BurriYo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/carrito.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-basket" viewBox="0 0 16 16">
+                                    <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
+                                  </svg>
+                                Carrito
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/misPedidos.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-checklist" viewBox="0 0 16 16">
+                                    <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+                                    <path d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"/>
+                                  </svg> 
+                                Mis Pedidos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/cuenta.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                                  </svg>
+                                Cuenta</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Ingredientes por secciones -->
+    <main class="container">
+        <!-- Tortillas -->
+        <h3 class="fw-bold my-1">Elija su tortilla</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="./imagenes/maiz.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Maíz</h5>
+                        <p class="card-text">Precio contado: <strong id="tortilla_precio1" class="fw-bold">$100</strong>
+                        </p>
+                        <button id="bt1" class="btn btn-dark"
+                            onclick="SumarAlCarrito({nombre: 'Maiz', precio: 100}), DisabledButton('bt1', 'bt2', 'bt3', 'bt1')">Elegir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./imagenes/integral.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Integral</h5>
+                        <p class="card-text">Precio contado: <strong id="tortilla_precio1" class="fw-bold">$100</strong>
+                        </p>
+                        <button id="bt2" class="btn btn-dark"
+                            onclick="SumarAlCarrito({nombre: 'Integral', precio: 120}), DisabledButton('bt1', 'bt2', 'bt3', 'bt2')">Elegir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./imagenes/calabaza.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Calabaza</h5>
+                        <p class="card-text">Precio contado: <strong id="tortilla_precio1" class="fw-bold">$100</strong>
+                        </p>
+                        <button id="bt3" class="btn btn-dark"
+                            onclick="SumarAlCarrito({nombre: 'Calabaza', precio: 120}), DisabledButton('bt1', 'bt2', 'bt3', 'bt3')">Elegir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Proteina -->
+        <h3 class="fw-bold my-1">Elija su Proteina</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="./imagenes/pollo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pollo</h5>
+                        <p class="card-text">Precio contado: <strong id="tortilla_precio1" class="fw-bold">$120</strong>
+                        </p>
+                        <button id="bp1" class="btn btn-dark"
+                            onclick="SumarAlCarrito({nombre: 'Pollo', precio: 120}), DisabledButton('bp1', 'bp2', 'bp3', 'bp1')">Elegir</button>
+                    </div>
+                </div>
+            </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./imagenes/carne.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Carne</h5>
+                            <p class="card-text">Precio contado: <strong id="tortilla_precio1"
+                                    class="fw-bold">$150</strong>
+                            </p>
+                            <button id="bp2" class="btn btn-dark" onclick="SumarAlCarrito({nombre: 'Carne', precio: 150}), DisabledButton('bp1', 'bp2', 'bp3', 'bp2')">Elegir</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./imagenes/veggie.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Veggie</h5>
+                            <p class="card-text">Precio contado: <strong id="tortilla_precio1"
+                                    class="fw-bold">$100</strong>
+                            </p>
+                            <button id="bp3" class="btn btn-dark" onclick="SumarAlCarrito({nombre: 'Veggie', precio: 100}), DisabledButton('bp1', 'bp2', 'bp3', 'bp3')">Elegir</button>
+                        </div>
+                 </div>
+                </div>
+        </div>
+        <!-- Verduras -->
+        <h3 class="fw-bold my-1">Elija sus verduras</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="./imagenes/repollo.jpg.jpg" class="card-img-top" alt="Repollos">
+                    <div class="card-body">
+                        <h5 class="card-title">Repollos</h5>
+                        <p class="card-text">Precio contado: <strong id="tortilla_precio1" class="fw-bold">$110</strong>
+                        </p>
+                        <button id="bv1" class="btn btn-dark" onclick="SumarAlCarrito({nombre: 'Repollos', precio: 110}), DisabledButton('bv1', 'bv2', 'bv3', 'bv1')">Elegir</button>
+                    </div>
+                </div>
+            </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./imagenes/verdes.jpg" class="card-img-top" alt="Verdes">
+                        <div class="card-body">
+                            <h5 class="card-title">Verdes</h5>
+                            <p class="card-text">Precio contado: <strong id="tortilla_precio1"
+                                    class="fw-bold">$110</strong>
+                            </p>
+                            <button id="bv2" class="btn btn-dark" onclick="SumarAlCarrito({nombre: 'Verdes', precio: 110}), DisabledButton('bv1', 'bv2', 'bv3', 'bv2')">Elegir</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./imagenes/arroz.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Arroz y Porotos</h5>
+                            <p class="card-text">Precio contado: <strong id="tortilla_precio1"
+                                    class="fw-bold">$120</strong>
+                            </p>
+                            <button id="bv3" class="btn btn-dark" onclick="SumarAlCarrito({nombre: 'Arroz y porotos', precio: 120}), DisabledButton('bv1', 'bv2', 'bv3', 'bv3')">Elegir</button>
+                        </div>
+                 </div>
+                </div>
+        </div>
+        <!-- Salsas -->
+        <h3 class="fw-bold my-1">Elija su salsa</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="./imagenes/alioli.jpg" class="card-img-top" alt="Alioli">
+                    <div class="card-body">
+                        <h5 class="card-title">Alioli</h5>
+                        <p class="card-text">Precio contado: <strong id="tortilla_precio1" class="fw-bold">$60</strong>
+                        </p>
+                        <button id="bs1" class="btn btn-dark" onclick="SumarAlCarrito({nombre: 'Alioli', precio: 60}), DisabledButton('bs1', 'bs2', 'bs3', 'bs1')">Elegir</button>
+                    </div>
+                </div>
+            </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./imagenes/barbacoa.jpeg" class="card-img-top" alt="Barbacoa">
+                        <div class="card-body">
+                            <h5 class="card-title">Barbacoa</h5>
+                            <p class="card-text">Precio contado: <strong id="tortilla_precio1"
+                                    class="fw-bold">$70</strong>
+                            </p>
+                            <button id="bs2" class="btn btn-dark" onclick="SumarAlCarrito({nombre: 'Barbacoa', precio: 70}), DisabledButton('bs1', 'bs2', 'bs3', 'bs2')">Elegir</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./imagenes/picante.jpeg" class="card-img-top" alt="Picante">
+                        <div class="card-body">
+                            <h5 class="card-title">Picante</h5>
+                            <p class="card-text">Precio contado: <strong id="tortilla_precio1"
+                                    class="fw-bold">$70</strong>
+                            </p>
+                            <button id="bs3" class="btn btn-dark" onclick="SumarAlCarrito({nombre: 'Picante', precio: 70}), DisabledButton('bs1', 'bs2', 'bs3', 'bs3')">Elegir</button>
+                        </div>
+                 </div>
+                </div>
+        </div>
+        <!-- Crocabtes -->
+        <h3 class="fw-bold my-1">Elija su crocante</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="./imagenes/semillas.jpg" class="card-img-top" alt="Semillas">
+                    <div class="card-body">
+                        <h5 class="card-title">Semillas</h5>
+                        <p class="card-text">Precio contado: <strong id="tortilla_precio1" class="fw-bold">$50</strong>
+                        </p>
+                        <button id="bc1" class="btn btn-dark" onclick="SumarAlCarrito({nombre: 'Semillas', precio: 50}), DisabledButton('bc1', 'bc2', 'bc3', 'bc1')">Elegir</button>
+                    </div>
+                </div>
+            </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./imagenes/garrapinada.jpeg" class="card-img-top" alt="Garrapiñada">
+                        <div class="card-body">
+                            <h5 class="card-title">Garrapiñada</h5>
+                            <p class="card-text">Precio contado: <strong id="tortilla_precio1"
+                                    class="fw-bold">$50</strong>
+                            </p>
+                            <button id="bc2" class="btn btn-dark" onclick="SumarAlCarrito({nombre: 'Garrapiñada', precio: 50}), DisabledButton('bc1', 'bc2', 'bc3', 'bc2')">Elegir</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./imagenes/mix.jpeg" class="card-img-top" alt="Mix">
+                        <div class="card-body">
+                            <h5 class="card-title">Mix</h5>
+                            <p class="card-text">Precio contado: <strong id="tortilla_precio1"
+                                    class="fw-bold">$50</strong>
+                            </p>
+                            <button id="bc3" class="btn btn-dark" onclick="SumarAlCarrito({nombre: 'Mix', precio: 50}), DisabledButton('bc1', 'bc2', 'bc3', 'bc3')">Elegir</button>
+                        </div>
+                 </div>
+                </div>
+        </div>
+        <div class="d-grid gap-2 mt-5 mb-5">
+            <a class="btn btn-success" type="button" href="./pages/carrito.html">Ver pedido</a>
+          </div>
+        
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>

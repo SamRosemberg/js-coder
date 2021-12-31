@@ -1,0 +1,13 @@
+body {
+    background-color: whitesmoke;
+}
+
+.fondos {
+    background-color: #ffbd59;
+    color: black;
+}
+
+img {
+    height: 250px;
+    width: auto;
+}
